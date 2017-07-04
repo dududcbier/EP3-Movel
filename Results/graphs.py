@@ -23,9 +23,9 @@ def bargraph(what, t, pos, data, unit=None):
 	plt.xticks([p + 1 for p in pos], routers)
 	title = what + " usando o cenário"
 	if (t == 'cars'): 
-		title = title + "1, com buffers de e "
+		title = title + " 1 e "
 	else: 
-		title = title + "2, com buffers de e "
+		title = title + " 2 e "
 	if (n == '50'): 
 		title = title + "metade do número de nós para diferentes roteamentos com tamanhos variados de buffer"
 	else:
